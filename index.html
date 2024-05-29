@@ -6,7 +6,7 @@
 		Username: <input type='text' id='username' required><br>
 		Password: <input type='text' id='password' required><br>
 		<button id='submit' onclick="verify()">SUBMIT</button><br><br>
-		<h2 id="output"></h2>
+		<a href='https://github.com/Tayyab7404/Artificial-Intelligence'><h2 id="output"></h2></a>
 
 		<script>
 			function verify()
@@ -16,7 +16,7 @@
 				const output = document.getElementById("output");
 
 				if(username === "tayyab" && password === "password")
-					output.innerHTML = "<a href='https://github.com/Tayyab7404/Artificial-Intelligence'>Click Here</a>";
+					output.innerHTML = "Login Successful!";
 				else
 					output.innerHTML = "Login Failed!";
 			}
